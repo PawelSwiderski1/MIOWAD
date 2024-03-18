@@ -282,10 +282,5 @@ mse_score = mse(predictions, y_test_square)
 
 print(f"MSE Score: {mse_score}")
 
-plt.figure(figsize=(10, 4))
-
-plt.scatter(predictions, y_test_square)
-plt.show()
-
 if mlp_square_1_5.verbose:
     mlp_square_1_5.print_final_weights_and_biases()
